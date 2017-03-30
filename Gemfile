@@ -46,3 +46,9 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# project specific gems
+gem 'devise'
+gem 'slim'
+gem 'slim-rails'
+gem 'google-api-client'
