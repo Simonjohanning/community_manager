@@ -1,1 +1,7 @@
 | This is where the dashboard will be for logged in users
+a href="#" onclick="test_click()"
+  | test click
+.fc.fc-unthemed.fc-ltr#calendar
+  .fc-toolbar.fc-header-toolbar
+- @users.each do |usr|
+  = usr.email
